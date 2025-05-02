@@ -1,0 +1,394 @@
+.who-are-we {
+    background-color: rgb(255, 255, 255);
+    padding: 90px 0px 60px 0px;
+    overflow: auto;
+    width: 100%;
+}
+
+
+img {
+    width: 100%;
+}
+
+.imge-first {
+    width: 37%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 150px;
+
+}
+
+h2.head1 {
+    font-size: 30.5px;
+    font-family: Alegreya;
+    color: rgb(48, 48, 48);
+    line-height: 35.2px;
+}
+
+p.paragr {
+    font-size: 17px;
+    font-family: Alegreya Sans;
+    color: rgb(104, 104, 104);
+    line-height: 30px;
+}
+
+.paragr-Icon {
+    display: inline-block;
+    padding-left: 5px;
+    padding-bottom: 5px;
+
+}
+
+.text-second {
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    width: 39%;
+    padding: 30px 0px;
+    margin-left: 70px;
+}
+
+.Icon-text {
+    display: inline-block;
+    width: 100%;
+}
+
+.Icon-text ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.Icon-text li {
+    margin-bottom: 10px;
+    height: 50px;
+
+}
+
+.icons-first-page {
+    width: 7%;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50px;
+    border-color: rgb(247, 231, 231);
+    border-style: groove;
+}
+
+.Our-Location {
+    background-color: rgb(248, 248, 248);
+}
+
+.imag-sec {
+    width: 37%;
+    display: inline-block;
+    vertical-align: top;
+    padding-bottom: 20px;
+    margin-left: 60px;
+}
+
+.text-third {
+    display: inline-block;
+    /* background-color: rgb(165, 14, 14); */
+    width: 39%;
+    padding-left: 150px;
+    padding-top: 75px;
+    /* margin-left: 70px; */
+}
+
+.Our-Baking {
+    background-color: rgb(255, 255, 255);
+    padding: 60px 0px 0px 0px;
+}
+
+.Baking {
+    background-color: rgb(255, 255, 255);
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+    padding: 40px 21px 60px 21px;
+}
+
+.head-bake {
+    text-align: center;
+    background-color: white;
+}
+
+.imag-bake {
+    padding-bottom: 16px;
+}
+
+.h4 {
+    font-size: 22px;
+    font-family: Alegreya;
+    color: rgb(48, 48, 48);
+}
+
+.paragr-bake {
+    line-height: 20px;
+}
+
+.Baking1 {
+    float: left;
+    padding-left: 146px;
+}
+
+.Baking2 {
+    float: none;
+}
+
+.Baking3 {
+    float: right;
+    padding-right: 146px;
+}
+
+.clr {
+    clear: both;
+}
+
+.Contact-Information {
+    background-color: rgb(248, 248, 248);
+}
+
+.paragr-cont {
+    padding-top: 12px;
+    padding-bottom: 0px;
+}
+
+.P-IC-2 {
+    display: inline-block;
+    padding-left: 12px;
+}
+
+.text-contact {
+    padding-top: 0px;
+}
+
+.icons-second-page {
+    background-color: rgb(133, 113, 113);
+    width: 6%;
+}
+
+.google-map {
+    width: 37%;
+    position: relative;
+    float: right;
+    padding-right: 146px;
+
+}
+
+.mapp {
+    width: 100%;
+    height: 500px;
+}
+
+.last-page {
+    padding-top:-50px;
+    /* width: 100% ;    */
+    /* margin-top: -30px; */
+}
+
+
+.last-h4 {
+    padding-top: 0px;
+    font-size: 18px;
+    color: white;
+
+}
+
+.about-us {
+    /* background-color: aqua; */
+    width: 20%;
+    float: left;
+    padding-left: 132px;
+}
+
+.Why-special {
+    /* background-color: blue; */
+    width: 20%;
+    float: left;
+    padding-left: 20px;
+}
+
+.Opening-Hours {
+    /* background-color: rgb(246, 245, 247); */
+    width: 20%;
+    float: left;
+    padding-left: 10px;
+}
+
+.Contact-Details {
+    /* background-color: chartreuse; */
+    width: 20%;
+    float: right;
+    padding-right: 132px;
+}
+
+.stop-padding-top {
+    padding-top: 0px;
+}
+
+.last-paragra {
+    font-size: 18px;
+    line-height: 29.76px;
+    font-family: Alegreya Sans;
+    color: rgb(104, 104, 104);
+}
+
+.icon-last {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    /* margin-right: 10px; */
+}
+
+.icon-last2 {
+    margin-top: -40px;
+}
+
+.pragra-last {
+    /* padding-bottom: 0px;
+    padding-left: 0px; */
+    display: inline-block;
+}
+.fixed-icon{
+    display: inline-block;
+
+}
+.fixed-height-li {
+    display: flex;
+    align-items: center;
+    padding-top:15px ;
+    /* gap: 10px; */
+}
+
+.pra-flo {
+    margin: 0;
+    max-width: 250px; 
+    line-height: 50px; 
+}
+
+.icons{
+    padding-top: 10px;
+}
+
+
+.no-pad {
+    height: 20px;
+    margin: 0px;
+}
+.about{
+    background-color: rgb(64, 61, 56);
+
+    margin-top: 0px;
+    padding-top: 30px;
+    width: 100%;
+    padding-bottom: 30px;
+    height:auto;
+}
+.Why-special ul li {
+    padding-top: 5px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-bottom: 0.8px solid rgb(150, 150, 150);
+}
+
+.Why-special ul li:last-child {
+    border-bottom: none;
+}
+
+.Opening-Hours ul li {
+    padding-top: 5px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-bottom: 0.8px solid rgb(150, 150, 150);
+}
+
+.Opening-Hours ul li:last-child {
+    border-bottom: none;
+}
+
+.Contact-Details ul li {
+    padding-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-bottom: 0.8px solid rgb(150, 150, 150);
+}
+
+.Contact-Details ul li:last-child {
+    border-bottom: none;
+}
+
+.icon-last3 {
+    width: 40px;
+    height: 40px;
+
+}
+
+.Contact-Details {
+    background-image: url("../images/contact-details-map.png");
+    /* background-size: cover; */
+    background-position: 25% 70% ;
+    background-repeat: no-repeat;
+    background-size: 50% 50%; 
+    background-image:brightness(50%);
+
+}
+.link-pages{
+    text-decoration: none;
+    color: rgb(104, 104, 104);
+}
+.link-pages:hover{
+    background-color: transparent;
+    color: rgb(255 ,225 ,225);
+  }
+
+.footer{
+    background-color: rgb(53, 51, 48);
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .imge-footer{
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.lastOfTHe{
+    text-align: center;
+    display: block;
+  
+}
+.last-icons {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.last-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    gap: 10px; 
+}
+
+.last-list-li a img {
+    width: 40px; /* Adjust icon size */
+    height: auto;
+    /* border-color: rgb(53, 51, 48); */
+    border: none;
+    background-color: rgb(104, 104, 104);
+}
+.face:hover{
+    background-color: rgb(11, 33, 230);
+}
+.google:hover{
+    background-color: rgb(236, 28, 36);
+}
+.linked:hover{
+    background-color: rgb(0, 139, 139);
+}
+.twit:hover{
+    background-color: rgb(85, 172, 238);
+}
