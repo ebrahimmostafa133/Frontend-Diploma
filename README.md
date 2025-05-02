@@ -20,6 +20,12 @@ Each assignment is deployed using **GitHub Pages**, and you can view them direct
 
 ---
 
+📱 **Responsiveness Note:**  
+Assignments **1 to 4** are **not responsive**, as I didn't use media queries in them.  
+For best viewing, please open them on a **desktop/laptop browser**.
+
+---
+
 📬 For questions or contact:  
 - [GitHub Profile](https://github.com/ebrahimmostafa133)  
 - 📧 Email: ibrahimmostafa9939@gmail.com
