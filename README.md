@@ -20,6 +20,14 @@ Each assignment is deployed using **GitHub Pages**, and you can view them direct
 
 ---
 
+## 📝 Exams
+
+| #   | Exam Name           | Live Link |
+|-----|---------------------|-----------|
+| 🎓 | Bootstrap Exam      | [🔗 View](https://ebrahimmostafa133.github.io/Frontend-Diploma/Exams/Bootstrape%20Exam/) |
+
+---
+
 📱 **Responsiveness Note:**  
 Assignments **1 to 4** are **not responsive**, as I didn't use media queries in them.  
 For best viewing, please open them on a **desktop/laptop browser**.
