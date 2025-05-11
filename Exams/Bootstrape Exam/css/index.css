@@ -101,8 +101,12 @@ a{
 
 /* ======================== start of Header ======================== */
 .hero-section {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/bg.jpg') no-repeat center center fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/bg.jpg');
+  background-position: 0px 0px;
+  height: 100vh;
   background-size: cover;
+  position: relative;
+  overflow: hidden;
   font-family: "Montserrat", sans-serif;
 }
 .social-icons span {
