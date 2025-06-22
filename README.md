@@ -20,6 +20,16 @@ Each assignment is deployed using **GitHub Pages**, and you can view them direct
 
 ---
 
+## 📦 JavaScript Assignments
+
+| #   | Assignment Name     | Live Link |
+|-----|---------------------|-----------|
+| 🟡  | JS-Assignment 1      | [🔗 View](https://ebrahimmostafa133.github.io/Frontend-Diploma/JS-Assignment1/) |
+| 🟡  | JS-Assignment 2      | [🔗 View](https://ebrahimmostafa133.github.io/Frontend-Diploma/JS-Assignment2/) |
+| 🟡  | JS-Assignment 3      | [🔗 View](https://ebrahimmostafa133.github.io/Frontend-Diploma/JS-Assignment3/) |
+
+---
+
 ## 📝 Exams
 
 | #   | Exam Name           | Live Link |
