@@ -27,6 +27,7 @@ Each assignment is deployed using **GitHub Pages**, and you can view them direct
 | 🟡  | JS-Assignment 2      | [🔗 View](https://ebrahimmostafa133.github.io/Frontend-Diploma/JS-Assignment2/) |
 | 🟡  | JS-Assignment 3      | [🔗 View](https://ebrahimmostafa133.github.io/Frontend-Diploma/JS-Assignment3/) |
 | 🟡  | JS-Assignment 4      | [🔗 View](https://ebrahimmostafa133.github.io/Frontend-Diploma/JS-Assignment4/) |
+| 🟡  | JS-Assignment 5      | [🔗 View](https://ebrahimmostafa133.github.io/Frontend-Diploma/JS-Assignment5/) |
 
 ---
 
