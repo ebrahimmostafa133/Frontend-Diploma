@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment5-JS-weather</title>
+
+
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/media.css">
+
+</head>
+
+<body>
+
+  <header class="text-white  container mx-xl-auto">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid py-4 px-3 px-lg-5">
+        <a class="navbar-brand text-white fw-bold fs-3 d-flex align-items-center" href="#">
+          <img src="./images/logo@2x.png" width="64" height="38" alt="Weather Logo">
+          <div class="logo-type">
+            <h5 class="pt-3 Weather-logo ms-3 fw-bold">Weather</h5>
+            <small class="tagline ms-4">tagline goes here</small>
+          </div>
+        </a>
+        <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link nav-btn rounded-pill px-3 py-1 mx-1 active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-btn rounded-pill px-3 py-1 mx-1 news" href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-btn rounded-pill px-3 py-1 mx-1 live-camera " href="#">Live cameras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-btn rounded-pill px-3 py-1 mx-1 photos" href="#">Photos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-btn rounded-pill px-3 py-1 mx-1" href="./pages/contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main-content ">
+    <section class="hero py-5 position-relative">
+      <div class="container position-relative">
+        <div class="row justify-content-center">
+          <div class="search-container w-xl-50 w-lg-75 w-md-100 py-5">
+            <input type="text" id="locationInput" class="form-control search-input w-100"
+              placeholder="Find your location..." aria-label="Find your location">
+            <button class="btn search-btn" type="button" id="searchBtn">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="weather-cards py-4 " style="margin-top: -120px; padding-bottom: 1rem;" >
+      <div class="container">
+        <div class="row g-4 weather-cards-row">
+
+          <!-- Weather cards will be dynamically inserted here -->
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer bg-dark py-5 border-top border-light border-opacity-10">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-8 mb-4 mb-lg-0">
+          <div class="subscribe-container position-relative w-100">
+            <input type="email" class="form-control subscribe-input" placeholder="Enter your email to subscribe...">
+            <button type="submit" class="btn subscribe-btn">
+              Subscribe
+            </button>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="social-links d-flex justify-content-lg-end justify-content-center gap-3">
+            <a href="#" class="text-white fs-5"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-white fs-5"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-white fs-5"><i class="fab fa-google-plus-g"></i></a>
+            <a href="#" class="text-white fs-5"><i class="fab fa-pinterest-p"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="col-12 text-center">
+          <p class="colophon text-white mb-0 small">Copyright © 2024 Weather App. All rights reserved</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+  <script src="./js/bootstrap.bundle.min.js"> </script>
+  <script src="./js/index.js"></script>
+
+</body>
+
+</html>
