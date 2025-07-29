@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Asignment2</title>
+    </head>
+    <body >
+         <form>
+            <fieldset style="background-color: brown; color:black; border: 3px; border-color:white;">
+                <legend style="background-color:rgb(24, 86, 180);width:fit-content;">Personal Data</legend>
+                <br/>
+                <br/>
+                <fieldset style="background-color: rgb(212, 159, 13);">
+                    <legend text-align="center" style="background-color:rgb(17, 180, 230); height: 70px; width:fit-content; padding-top: 35px;">YourName</legend>
+                    <br/>
+                    <br/>
+                    <table>
+                        <tr >
+                            <td width="90">
+                                <label for="fname">First Name</label>
+                            </td>
+                            <td width="2">:</td>
+                            <td style="padding: 0%;">
+                                <input type="text" id="fname" name="fname" required placeholder="ex.Ebrahim" minlength="3" maxlength="12" accept="text"/>
+                            </td>
+                        </tr>
+                        <tr >
+                            <td width="90">
+                                <label for="sname">Second Name</label>
+                            </td>
+                            <td width="2">:</td>
+                            <td style="padding: 0%;">
+                                <input type="text" id="sname" name="sname" required placeholder="ex.Mostafa" minlength="3" maxlength="12"/>
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <br/>
+                <br/>
+                <br/>
+                <table>
+                    <tr>
+                        <td width="100" >
+                            <b><label for="phone">your phone</label></b>
+                        </td>
+                        <td width="2">
+                            <b>:</b>
+                        </td>
+                        <td style="padding: 0%;">
+                            <input type="tel" id="phone" name="phone" required />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="100" >
+                            <b><label for="email">Email</label></b>
+                        </td>
+                        <td width="2">
+                            <b>:</b>
+                        </td>
+                        <td style="padding: 0%;">
+                            <input type="email" id="email" name="email" required autocomplete="on"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="100" >
+                            <b><label for="pass1">password</label></b>
+                        </td>
+                        <td width="2">
+                            <b>:</b>
+                        </td>
+                        <td style="padding: 0%;">
+                            <input type="password" id="pass1" name="password" required minlength="8"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="100" >
+                            <b><label for="pass2">re-password</label></b>
+                        </td>
+                        <td width="2">
+                            <b>:</b>
+                        </td>
+                        <td style="padding: 0%;">
+                            <input type="password" id="pass2" name="re_password" required />
+                        </td>
+                    </tr>
+                </table>
+                <br/>
+                <br/>
+                <br/>
+                <input type="radio" id="male" name="gender" value="male" required/>
+                <label for="male" >Male</label>
+                <br/>
+                <input type="radio" id="female" name="gender" value="female" required/>
+                <label for="female" >Female</label>
+
+                <br/>
+                <br/>
+
+                <input type="checkbox" id="student" name="Student" value="student"/>
+                <label for="student">Student</label>
+                <br/>
+                <input type="checkbox" id="graduated" name="Graduated" value="graduated"/>
+                <label for="graduated">Graduated</label>
+
+                <br/>
+                <br/>
+                
+                <select name="university">
+                    <option value="">Select University</option>
+                    <option value="1">University of Cairo</option>
+                    <option value="2">King Fahd University</option>
+                    <option value="3">American University</option>
+                    <option value="4">American International University</option>
+                    <option value="5">Sheraton Hotel University</option>
+                    <option value="6">Jordan University</option>
+                    <option value="7">Jordan International University</option>
+                    <option value="8">Jordan Academy of Sciences</option>
+                    <option value="9">Jordan Academy of Business</option>
+                    <option value="10">Jordan Academy of Engineering</option>
+                    <option value="11">Jordan Academy of Law</option>
+                    <option value="12">Jordan Academy of Health Sciences</option>
+                </select>
+                <br/>
+                <button style="background-color: rgb(38, 37, 37); color:antiquewhite"><b>SUBMIT</b></button>
+                <br/>
+                <br/>
+                <br/>
+            </fieldset>  
+         </form>   
+    </body>
+</html>

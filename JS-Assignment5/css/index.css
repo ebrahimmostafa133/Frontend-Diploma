@@ -1,0 +1,289 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1e202b;
+    color: #333;
+    min-height: 100vh;
+    line-height: 1.6;
+}
+
+.Weather-logo {
+    margin-bottom: -1.5rem;
+}
+
+.tagline {
+    font-size: 0.7rem;
+    color: #bdc3c7;
+    font-weight: normal;
+}
+
+.nav-btn {
+    color: white !important;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+}
+
+.nav-btn:hover {
+    color: #3498db !important;
+    background: rgba(255, 255, 255, 0.1);
+    border-color: #3498db;
+}
+
+header {
+    background-color: #1e202b;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.navbar-toggler {
+    color: white;
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-toggler:hover {
+    color: #3498db !important;
+    background: rgba(255, 255, 255, 0.1);
+    border-color: #3498db;
+    }
+/* Search Container */
+
+.hero{
+    background-image: url('../images/banner.png');
+    background-size: cover;
+    height: 360px;
+    display: flex;    
+}
+
+.nav-btn.active {
+  background: rgba(6, 18, 26, 0.2) !important;
+  border-color: #3498db !important;
+  color: #3498db !important;
+  font-weight: 600;
+}
+.search-container {
+    position: relative;
+    width: 100%; 
+}
+
+.search-input {
+    background-color: #1e202b;
+    border: 2px solid rgba(52, 152, 219, 0.3);
+    color: white;
+    padding: 15px 60px 15px 20px;
+    font-size: 1.1rem;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+.search-input:focus {
+    background-color: #1e202b;
+    border-color: #3498db;
+    box-shadow: 0 0 20px rgba(52, 152, 219, 0.3);
+    color: white;
+}
+
+.search-input::placeholder {
+    color: #bdc3c7;
+}
+
+.search-btn {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #3498db;
+    border: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.search-btn:hover {
+    background: #2980b9;
+    transform: translateY(-50%) scale(1.1);
+}
+
+/* Weather Cards */
+.card {
+    background: rgba(44, 62, 80, 0.95);
+    backdrop-filter: blur(20px);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+}
+
+.current-weather {
+    background: linear-gradient(135deg, rgba(44, 62, 80, 0.95), rgba(52, 152, 219, 0.1));
+}
+
+.forecast-weather {
+    background: linear-gradient(135deg, rgba(44, 62, 80, 0.95), rgba(155, 89, 182, 0.1));
+}
+
+.day-name {
+    color: #ecf0f1;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.date-text {
+    color: #bdc3c7;
+    font-size: 0.9rem;
+}
+
+.location {
+    color: #3498db;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.temperature {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #ecf0f1;
+    line-height: 1;
+}
+
+.min-temp {
+    color: #bdc3c7;
+    font-size: 1.2rem;
+}
+
+.description {
+    color: #3498db;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.weather-condition-icon {
+    font-size: 2.5rem;
+    color: #f39c12;
+}
+
+.weather-details .detail-item {
+    color: #bdc3c7;
+    font-size: 0.9rem;
+}
+
+.weather-details .detail-item i {
+    color: #3498db;
+}
+
+.subscribe-container {
+    position: relative;
+    width: 100%;
+}
+footer{
+    background-color: rgb(191, 193, 200);
+}
+.subscribe-input {
+    background-color: #1e202b;
+    border: 2px solid rgba(52, 152, 219, 0.3);
+    color: white;
+    padding: 15px 130px 15px 20px;
+    font-size: 1.1rem;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.subscribe-input:focus {
+    background-color: #1e202b;
+    border-color: #3498db;
+    box-shadow: 0 0 20px rgba(52, 152, 219, 0.3);
+    color: white;
+    outline: none;
+}
+
+.subscribe-input::placeholder {
+    color: #bdc3c7;
+}
+
+.subscribe-btn {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #3498db;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.subscribe-btn:hover {
+    background: #2980b9;
+    transform: translateY(-50%) scale(1.05);
+}
+
+.social-links a {
+    transition: all 0.3s ease;
+    color: #3498db !important;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-radius: 50%;
+    background: rgba(52, 152, 219, 0.1);
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-links a:hover {
+    color: #ffffff !important;
+    background: rgb(114, 198, 255);
+    transform: translateY(-2px);
+}
+
+
+
+/* Breadcrumb Styles */
+.breadcrumb-section {
+    background-color: #1e202b;
+}
+
+.home-contact-box {
+    background: rgba(44, 62, 80, 0.95);
+    border: 1px solid rgba(52, 152, 219, 0.3);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.home-contact-box a {
+    transition: all 0.3s ease;
+}
+
+.home-contact-box a:hover {
+    color: #3498db !important;
+}
+
+.placeholder-white::placeholder {
+    color: rgba(255, 255, 255, 0.6) !important;
+}
+.form-control:hover {
+    border-color: #3498db !important;
+    box-shadow: 0 0 8px rgba(52, 152, 219, 0.3);
+}
+.contact-details {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}

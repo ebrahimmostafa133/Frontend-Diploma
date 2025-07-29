@@ -1,0 +1,372 @@
+/* ======================== Global style ======================== */
+body {
+  font-family: 'Poppins', sans-serif; 
+  color: #343a40; 
+  scroll-behavior: smooth;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+.section-titleX {
+  position: relative;
+  z-index: 1;
+}
+.section-title h2::after{
+    content: "";
+    width: 18%;
+    height: 30px;
+    background-image: url(../images/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -10px;
+    left: 41%;
+    z-index: -1;
+}
+img{
+    width: 100%;
+    display: block;
+}
+.container{
+    width: 77%;
+}
+a{
+    text-decoration: none;
+}
+.row{
+    font-family: "Montserrat", sans-serif;
+}
+/* ======================== End of Global style ======================== */
+
+
+/* ======================== start of NavBar ======================== */
+.navbar {
+  transition: all 0.5s ease;
+  font-family: "Montserrat", sans-serif;
+}
+.navbar-brand {
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
+.nav-link {
+  color: #000000 !important;
+  position: relative;
+  padding-bottom: 8px !important;
+}
+.nav-link.active {
+  color: #000000 !important;
+  background-color: transparent !important;
+}
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+.nav-link.active::after {
+  content: '';
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%) scaleX(0);
+  width: 50%;
+  height: 1px;
+  background-color: #000000;
+  transition: transform 0.3s ease;
+}
+.nav-link.active::after,
+.nav-link:hover::after {
+  transform: translateX(-50%) scaleX(1);
+}
+.navbar.transparent {
+    background-color: transparent !important;
+    .nav-link.active {
+        color: #ffffff !important;
+    }
+    .nav-link {
+        color: #ffffff !important;
+        position: relative;
+        padding-bottom: 8px !important;
+    }
+    .navbar-brand {
+        color: #ffffff !important;
+    }
+    .nav-link.active::after {
+        background-color: #ffffff;
+    }
+    position: absolute !important;
+}
+.navbar.solid {
+  background-color: white !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* ======================== End of NavBar ======================== */
+
+
+/* ======================== start of Header ======================== */
+.hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/bg.jpg');
+  background-position: 0px 0px;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+.social-icons span {
+  width: 35px;
+  height: 35px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+}
+/* ======================== End of Header ======================== */
+
+
+/* ======================== start of About ======================== */
+.about-section .lead {
+  color: #6c757d;
+  letter-spacing: 2px;
+}
+.btn-dark:hover  {
+    background-color: #ffffff;
+    color: #000000;
+    border-color: #000000;
+}
+.about-image {
+  position: relative;
+  width: 85%;
+  left: 15%;
+}
+.about-image:after {
+    content: "";
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: -30px;
+    bottom: -30px;
+    background-image: url(../images/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+}
+.shadow-inset {
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.progress {
+  height: 23px;
+  border-radius: 5px !important;
+  
+}
+.progress-bar {
+  border-radius: 5px;
+  padding: 0 15px;
+
+}
+.x1,.x2,.x3 {
+  position: relative;
+}
+.x1::after {
+    content: "95%";
+    position: absolute;
+    right: 1%;  
+}
+.x2::after {
+    content: "80%";
+    position: absolute;
+    right: 1%;  
+}
+.x3::after {
+    content: "90%";
+    position: absolute;
+    right: 1%;  
+}
+/* ======================== End of About ======================== */
+
+
+/* ======================== start of Servieces ======================== */
+.services-section .icon {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    margin: 0 auto 1.5rem auto;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+.services-section .service-item:hover .icon {
+  background-color: #000;
+  color: #fff !important;
+  border-color: #000;
+}
+/* ======================== End of Servieces ======================== */
+
+
+/* ======================== start of Portfolio ======================== */
+.portfolio-wrap {
+  position: relative;
+  overflow: hidden;
+}
+.portfolio-info h4 {
+  letter-spacing: 2px;
+  color: #000;
+}
+.portfolio-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.portfolio-wrap:hover .portfolio-info {
+  opacity: 1;
+}
+.portfolio-info p {
+  font-size: 0.9rem;
+  color: #f0f0f0;
+}
+.portfolio-info .icon i {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 28px;
+    border-radius: 50%;
+    border: 1px solid #111;
+    background: #111;
+    color: #eee;
+}
+.portfolio-info i:hover{
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+/* ======================== End of Portfolio ======================== */
+
+
+/* ======================== start of Testimonials ======================== */
+ .carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #adb5bd;
+  border: 0;
+  margin: 0 5px;
+}
+.testimonials-section .carousel-indicators .active {
+  background-color: #595b5e;
+}
+/* ======================== End of Testimonials ======================== */
+
+
+/* ======================== start of Numbers ======================== */
+.numbers .icon {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.numbers h3 {
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+.numbers p {
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+/* ======================== End of Numbers ======================== */
+
+
+/* ======================== start of Team ======================== */
+.transition-scale {
+  transition: transform 0.3s ease;
+}
+.transition-all {
+  transition: all 0.3s ease;
+}
+.card-image:hover .transition-scale {
+  transform: scale(1.1);
+}
+.card:hover .social-overlay {
+  opacity: 1 !important;
+  transform: rotateY(0deg) scale(1);
+}
+.social-overlay {
+  background-color: rgba(255, 255, 255, 0.95);
+  width: 98% !important;
+  height: 98% !important;
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  right: 5px;
+  bottom: 5px;
+  text-align: center;
+  opacity: 0;
+  transition: all 0.5s ease;
+  transform: rotateY(180deg) scale(0.5);
+}
+.social-icons a {
+  width: 40px;
+  height: 40px;
+}
+.social-icons a:hover {
+    color: black !important;
+    background: white !important;
+    border: 1px solid black !important;
+}
+.card-body {
+  background-color: #383535;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+/* ======================== End of Team ======================== */
+
+
+/* ======================== start of Contact ======================== */
+.contact-section .contact-info .icon {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    background: rgb(244, 244, 244);
+    margin: 0 auto 1.5rem auto;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+.contact-section .contact-info:hover .icon {
+    background-color: #000;
+    color: #fff !important;
+    border-color: #000;
+}
+.contact-section form .form-control {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 1rem;
+}
+.contact-section form .form-control:focus {
+    border-color:none;
+}
+.contact-section form button {
+    border-radius: 30px;
+}
+/* ======================== End of Contact ======================== */
+
+
+/* ======================== start of Footer ======================== */
+.footer {
+  background-color: #1c1c1c; 
+  font-size: 14px !important;
+}
+/* ======================== End of Footer ======================== */
+
+
+

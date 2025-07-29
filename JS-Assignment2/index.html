@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment2-JS-Quotes</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/media.css">
+  
+</head>
+
+<body class="bg-light pt-5">
+
+<div class="container text-center">
+  <h1 class="mb-3">Quote of the Day</h1>
+  <h3 class="mb-4">Press the button below to receive a random quote!</h3>
+  <button class="btn btn-primary mb-4" onclick="showRandomQuote()">New Quote</button>
+
+  <div id="quoteContainer" class="d-none mx-auto text-start border-start border-5 border-primary bg-white rounded-3 p-4 shadow-sm" style="max-width: 700px;">
+    <h4 id="quoteAuthor" class="fw-bold mb-2"></h4>
+    <p id="quoteText" class="fs-5 fst-italic"></p>
+  </div>
+</div>
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
